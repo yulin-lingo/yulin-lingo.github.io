@@ -72,7 +72,7 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Basic */
+/* Basic 紫色凸塊*/
 
 	@-ms-viewport {
 		width: device-width;
@@ -113,7 +113,7 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-/* Type */
+/* Type 左上角樣式*/
 
 	body, input, select, textarea {
 		color: #ffffff;
@@ -181,7 +181,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: hwb(0 100% 0%);
 		font-weight: 600;
 		line-height: 1.65;
 		margin: 0 0 1em 0;
@@ -3410,7 +3410,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #ffffff00;
+			/* background-color: #ffffff00; */
 			content: '';
 			display: block;
 			height: 100%;
