@@ -186,6 +186,7 @@ input, select, textarea {
 		line-height: 1.65;
 		margin: 0 0 1em 0;
 	}
+	
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -280,7 +281,7 @@ input, select, textarea {
 	}
 
 		hr.major {
-			margin: 3em 0;
+			margin: 10em 0;
 		}
 
 	.align-left {
@@ -3392,7 +3393,7 @@ input, select, textarea {
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 60vh;
+		height: 50vh;
 		margin-bottom: -3.25em;
 		max-height: 32em;
 		min-height: 22em;
@@ -3401,6 +3402,7 @@ input, select, textarea {
 	}
 
 		#banner:after {
+			/*背景前設定*/
 			-moz-transition: opacity 2.5s ease;
 			-webkit-transition: opacity 2.5s ease;
 			-ms-transition: opacity 2.5s ease;
@@ -3410,12 +3412,13 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			/* background-color: #ffffff00; */
+			background-color: #fcfcfc4f;
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
 			opacity: 0.85;
+			/*透明度*/
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3423,7 +3426,8 @@ input, select, textarea {
 		}
 
 		#banner h1 {
-			font-size: 3.25em;
+			font-size: 3em;
+			color: rgb(255,255,255);
 		}
 
 		#banner > .inner {
